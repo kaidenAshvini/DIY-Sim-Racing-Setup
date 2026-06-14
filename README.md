@@ -1,5 +1,5 @@
 # DIY Sim Racing Setup
-It's no secret that simulation racing setups are ridiculously expensive (with high end setups reaching thousands of dollars!). I sought to create a DIY Sim Racing Setup, using many materials I and other hobbyists would already have access to, equipped with a force-feedback wheel, a 3-pedal setup, and a 6-speed gearbox. In addition, I aimed for the wheel base to be very compact while offering a driving experience comparable to mid-range setups, for a far cheaper cost.
+It's no secret that simulation racing setups are ridiculously expensive (with high end setups reaching thousands of dollars!). I sought to create a DIY Sim Racing Setup, using many materials I and other hobbyists would already have access to, equipped with a force-feedback wheel and 3-pedal setup. In addition, I aimed for the wheel base to be very compact while offering a driving experience comparable to mid-range setups, for a far cheaper cost.
 
 ## Specs
 The [Wheelbase](CAD/Wheel/Wheel%20Assembly.step) features a 220W 48V Brushless DC Motor for punchy, high-torque force feedback. It reads position through a 600 P/R Incremental Rotary Encoder, which is responsive and accurate. It is also marginally adjustable, with 3 height settings and 10 degrees of adjustability.
