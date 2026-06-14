@@ -1,13 +1,13 @@
-Name,,Description,,,Link,,,,,,,,,Units,Unit Price,Qty,Line Price,Running Total
-Hub Adapter,,6-Hole Universal Pattern (70mm),,,https://a.co/d/0caWlYnZ,,,,,,,,,Each,$27.99,1,$27.99,$27.99
-Hall Effect Sensor,,"KY003, 3144E A3144, DC 3.3V-5V",,,https://a.co/d/04nWw3zB,,,,,,,,,Each,$0.86,10,$8.60,$36.59
-Brushless DC Motor,,"220W, 3000rpm, 48V",,,https://a.co/d/08rhArJE,,,,,,,,,Each,$80.50,1,$80.50,$117.09
-Flange Couplings,,12mm ID x 30m OD,,,https://a.co/d/0i7bd3jh,,,,,,,,,Each,$1.90,4,$7.60,$124.69
-Shaft Coupler,,14mm to 12mm (IDs) x 30mm OD ,,,https://a.co/d/09o9XnUK,,,,,,,,,Each,$20,1,$20,$144.69
-Amazon (Prime) Shipping,,$0,,,,,,,,,,,,,,,$0,$144.69
-Amazon (Prime) Local/State Tax,,$14.12,,,,,,,,,,,,,,,$14.12,$158.81
-D-Shaft,,"12mm Diamter, 400mm Length, 6mm Flat Width",,,https://www.mcmaster.com/products/shafts/rotary-shafts-2~/length~100-mm/length~400-mm/rotary-shafts-2~shaft-type~d-profile/?s=12mm+shaft,,,,,,,,,Each,$18.71,1,$18.71,$177.52
-Torsion Spring,,"225 Deg, 0.48in Shaft Diameter",,,https://www.mcmaster.com/products/torsion-springs/shaft-diameter~0-48/deflection-angle~225/,,,,,,,,,Each,$2.38,6,$14.28,$191.80
-Pulley Belt,,"HTD5, 25mm Width, 80 Teeth, 400mm Trade Size",,,https://www.mcmaster.com/products/timing-belts/high-torque-htd-timing-belts-2~~/width~25-mm/number-of-teeth~80/,,,,,,,,,Each,$44.36,1,$44.36,$236.16
-McMaster-Carr Shipping,,$14.50,,,,,,,,,,,,,,,$14.50,$250.66
-McMaster-Carr Local/State Tax,,$0,,,,,,,,,,,,,,,$0,$250.66
+Name,Description,Link,Units,Unit Price,Qty,Line Price,Running Total
+Hub Adapter,6-Hole Universal Pattern (70mm),https://a.co/d/0caWlYnZ,Each,$27.99,1,$27.99,$27.99
+Hall Effect Sensor,"KY003, 3144E A3144, DC 3.3V-5V",https://a.co/d/04nWw3zB,Each,$0.86,10,$8.60,$36.59
+Brushless DC Motor,"220W, 3000rpm, 48V",https://a.co/d/08rhArJE,Each,$80.50,1,$80.50,$117.09
+Flange Couplings,12mm ID x 30m OD,https://a.co/d/0i7bd3jh,Each,$1.90,4,$7.60,$124.69
+Shaft Coupler,14mm to 12mm (IDs) x 30mm OD ,https://a.co/d/09o9XnUK,Each,$20,1,$20,$144.69
+Amazon (Prime) Shipping,$0,,,,,$0,$144.69
+Amazon (Prime) Local/State Tax,$14.12,,,,,$14.12,$158.81
+D-Shaft,"12mm Diamter, 400mm Length, 6mm Flat Width",https://www.mcmaster.com/products/shafts/rotary-shafts-2~/length~100-mm/length~400-mm/rotary-shafts-2~shaft-type~d-profile/?s=12mm+shaft,Each,$18.71,1,$18.71,$177.52
+Torsion Spring,"225 Deg, 0.48in Shaft Diameter",https://www.mcmaster.com/products/torsion-springs/shaft-diameter~0-48/deflection-angle~225/,Each,$2.38,6,$14.28,$191.80
+Pulley Belt,"HTD5, 25mm Width, 80 Teeth, 400mm Trade Size",https://www.mcmaster.com/products/timing-belts/high-torque-htd-timing-belts-2~~/width~25-mm/number-of-teeth~80/,Each,$44.36,1,$44.36,$236.16
+McMaster-Carr Shipping,,$14.50,,,,$14.50,$250.66
+McMaster-Carr Local/State Tax,,$0,,,,$0,$250.66
