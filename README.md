@@ -10,7 +10,7 @@ The [Pedals](CAD/Wheel/Pedal Assembly.step) feature torsion springs, adjustable 
 
 _Side note:_ I will update this Zine with an IRL picture as soon as I build it
 
-[The car is from real pictures of my project car!](zine.pdf)
+![The car is from real pictures of my project car!](zine.pdf)
 
 ## Design Philosophy:
 While I do have many years of experience on an FTC robotics team (Roboavatars #7303), I am fully a software member. This project was my first attempt at CADing and building a physical project from scratch! Keep this in mind as you read through these designs, and please let me know at kaidenashvini@gmail.com of any mistakes I may have made!
@@ -32,9 +32,9 @@ Remember, while I have flushed out a completed project that works for me, feel f
     - **Flipsky Vesc Control**
         - This motor controller is common, and it is listed as compatible with the firmware I've decided to go with for this project. They are relatively common, and I had one on hand. In reality, any controller works as long as it's compatible with the firmware listed in [Software](firmware/README.md).
 
-[Wheel Base, 0 deg Tilt](assets/Wheel.png)
+![Wheel Base, 0 deg Tilt](assets/Wheel.png)
 
-[Wheel Base, 10 deg Tilt](assets/Wheel.png)
+![Wheel Base, 10 deg Tilt](assets/Wheel2.png)
 
 2. ### [Pedals](CAD/Wheel/Pedal Assembly.step)
     - **Using Torsion Spring**s
@@ -44,8 +44,8 @@ Remember, while I have flushed out a completed project that works for me, feel f
     - **Reading Pedal Position**
         - I chose to use a geared 3D print for low-latency and high-accuracy (by using gear ratios to my advantage)
 
-[Pedals, Front/Top Down View](assets/Pedal.png)
-[Pedals, Bottom Torsion Spring Mount View](assets/BelowPedal.png)
+![Pedals, Front/Top Down View](assets/Pedal.png)
+![Pedals, Bottom Torsion Spring Mount View](assets/BelowPedal.png)
 
 ## Adaptation:
 This is a fully-flushed out project that I've put together. I used the resources that I have available to create the best product I could within a reasonable cost. However, I understand that not everyone will have access to the exact same tools and materials as I did. In this case, **IMPROVISE**.
