@@ -2,22 +2,22 @@
 It's no secret that simulation racing setups are ridiculously expensive (with high end setups reaching thousands of dollars!). I sought to create a DIY Sim Racing Setup, using many materials I and other hobbyists would already have access to, equipped with a force-feedback wheel, a 3-pedal setup, and a 6-speed gearbox. In addition, I aimed for the wheel base to be very compact while offering a driving experience comparable to mid-range setups, for a far cheaper cost.
 
 ## Specs
-The [Wheelbase](CAD/Wheel/Wheel Assembly.step) features a 220W 48V Brushless DC Motor for punchy, high-torque force feedback. It reads position through a 600 P/R Incremental Rotary Encoder, which is responsive and accurate. It is also marginally adjustable, with 3 height settings and 10 degrees of adjustability.
+The [Wheelbase](CAD/Wheel/Wheel%20Assembly.step) features a 220W 48V Brushless DC Motor for punchy, high-torque force feedback. It reads position through a 600 P/R Incremental Rotary Encoder, which is responsive and accurate. It is also marginally adjustable, with 3 height settings and 10 degrees of adjustability.
 
-The [Pedals](CAD/Wheel/Pedal Assembly.step) feature torsion springs, adjustable end-stops, and rotary encoders.
+The [Pedals](CAD/Wheel/Pedal%20Assembly.step) feature torsion springs, adjustable end-stops, and rotary encoders.
 
 # Zine
 
 _Side note:_ I will update this Zine with an IRL picture as soon as I build it
 
-![The car is from real pictures of my project car!](assets/Zinepng.pdf)
+![The car is from real pictures of my project car!](assets/Zinepng.png)
 
 ## Design Philosophy:
 While I do have many years of experience on an FTC robotics team (Roboavatars #7303), I am fully a software member. This project was my first attempt at CADing and building a physical project from scratch! Keep this in mind as you read through these designs, and please let me know at kaidenashvini@gmail.com of any mistakes I may have made!
 
 Remember, while I have flushed out a completed project that works for me, feel free to adapt to whatever materials you have on hand. This will keep costs very low, as it did in my case, and will make your personal project far more convenient to complete!
 
-1. ### [Wheelbase](CAD/Wheel/Wheel Assembly.step)
+1. ### [Wheelbase](CAD/Wheel/Wheel%20Assembly.step)
     - **Using 20x20 Extrusions**
         - I have access to plenty of these 20x20 McMaster-Carr extrusions through my robotics team. They are cheap, rigid, and very convenient.
     - **Front Mount**
@@ -36,7 +36,7 @@ Remember, while I have flushed out a completed project that works for me, feel f
 
 ![Wheel Base, 10 deg Tilt](assets/Wheel2.png)
 
-2. ### [Pedals](CAD/Wheel/Pedal Assembly.step)
+2. ### [Pedals](CAD/Wheel/Pedal%20Assembly.step)
     - **Using Torsion Spring**s
         - I have torsion springs beneath the pedal shafts, which aim offer a realistic feel similar to real pedals.
     - **Pedal Design/Sizing**
@@ -50,7 +50,7 @@ Remember, while I have flushed out a completed project that works for me, feel f
 ## Adaptation:
 This is a fully-flushed out project that I've put together. I used the resources that I have available to create the best product I could within a reasonable cost. However, I understand that not everyone will have access to the exact same tools and materials as I did. In this case, **IMPROVISE**.
 
-Check out the [Adaptation](CAD/Wheel/Pedal Assembly.step) guide for more info on how to make this project yourself.
+Check out the [Adaptation](CAD/Wheel/Pedal%20Assembly.step) guide for more info on how to make this project yourself.
 
 ## Building Tips:
 1. ### Wheel Base
