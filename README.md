@@ -10,7 +10,7 @@ The [Pedals](CAD/Wheel/Pedal Assembly.step) feature torsion springs, adjustable 
 
 _Side note:_ I will update this Zine with an IRL picture as soon as I build it
 
-![The car is from real pictures of my project car!](zine.pdf)
+![The car is from real pictures of my project car!](assets/Zinepng.pdf)
 
 ## Design Philosophy:
 While I do have many years of experience on an FTC robotics team (Roboavatars #7303), I am fully a software member. This project was my first attempt at CADing and building a physical project from scratch! Keep this in mind as you read through these designs, and please let me know at kaidenashvini@gmail.com of any mistakes I may have made!
