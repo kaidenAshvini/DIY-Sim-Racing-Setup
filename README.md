@@ -77,6 +77,10 @@ Older ESP32s do not have the correct hardware to support native USB HID, so I de
 
 I will also add support for the newer ESP32s and RP2040s as soon as I get my hands on them.
 
+### Electronics
+
+![Simplified Wiring Diagram](assets/Wiring.png)
+
 ### Contact
 
 Discord: sheikaheye123
