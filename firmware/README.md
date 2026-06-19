@@ -1,29 +1,22 @@
 # Software
-
-## IMPORTANT DISCLAIMER!!
-The current firmware is **not** complete, **but for a very good reason**. Configuring a VESC requires the motor and encoder to be in a completed build (to tune encoder offset and ratio for external encoder setups). I am currently waiting on some of my parts to be machined. **This section will be updated with a complete firmware/software guide in 1-2 days!!** I did not want to start fully building before I submit the project!!
-
-I have wired the VESC and configured as much of the VESC tool as possible, but need the completed build to test it. In the meantime, enjoy this picture of my VESC in beautiful lighting (it is my first time soldering anything big as well :P):
-
-![VESC connected to a PSU](../assets/VESC.jpg)
-
-Otherwise, the software for the firmware is complete, but untested, for the ESP32s.
-
 ## Third Party Libraries
 
-| Library     | Usage | Link |
-|-------------| - | - |
-| Serialib    | Allows C++ to read serial input from ESP32 | https://github.com/imabot2/serialib | 
-| vJoy SDK    | Allows C++ USB HID interfacing for joystick inputs | https://sourceforge.net/projects/vjoystick/files/Beta%202.x/SDK/ |
-|  hidapi-win | Allows low-level USB HID interfacing | https://github.com/libusb/hidapi |
-| VNWheel | Open-source Force Feedback for Arduinos | https://github.com/hoantv/VNWheel |
- | TinyUSB | HID interfacing with the STM32 | https://github.com/hathach/tinyusb |
+| Library    | Usage | Link |
+|------------| - | - |
+| Serialib   | Allows C++ to read serial input from ESP32 | https://github.com/imabot2/serialib | 
+| vJoy SDK   | Allows C++ USB HID interfacing for joystick inputs | https://sourceforge.net/projects/vjoystick/files/Beta%202.x/SDK/ |
+| hidapi-win | Allows low-level USB HID interfacing | https://github.com/libusb/hidapi |
+| VNWheel    | Open-source Force Feedback for Arduinos | https://github.com/hoantv/VNWheel |
+| TinyUSB    | HID interfacing with the STM32 | https://github.com/hathach/tinyusb |
+| VescUart   | Sending current commands over UART | https://github.com/SolidGeek/VescUart |
 
 ## Building
 
 You will need to put the vJoyInterface.dll (specifically from third-party/vjoy/lib/amd64/) in the cmake-build-debug folder (for CLion, should be wherever your .exe file is).
 
 I will remove this soon, because I need to flush out the firmware with the physical parts before completing it.
+
+The STM32F411RE folder should open with Arduino IDE for flashing.
 
 ## Future Work (Coming Soon)
 
