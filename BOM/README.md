@@ -6,4 +6,4 @@ I am well aware that Hack Club prefers sourcing electronics from less mainstream
 McMaster-Carr is a local company that I frequently rely on for robotics parts. They have some of the best prices for highly specified materials, and because they are very local, shipping is fast and very cheap. They offer a fixed shipping fee for as many items as you want, making bulk/bundled purchases ideal.
 
 ## Self Sourcing
-You will notice that the BOM does not include the 2020 extrusions, standoffs, bolts, VESC, PSU, etc. This is because I have self-sourced these parts from friends, robotics, or previous personal projects.
+I was luckily able to self-source many parts for free from friends, robotics team, and previous project.
