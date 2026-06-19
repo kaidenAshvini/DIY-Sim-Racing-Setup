@@ -5,7 +5,7 @@ The current firmware is **not** complete, **but for a very good reason**. Config
 
 I have wired the VESC and configured as much of the VESC tool as possible, but need the completed build to test it. In the meantime, enjoy this picture of my VESC in beautiful lighting (it is my first time soldering anything big as well :P):
 
-![VESC connected to a PSU](assets/VESC.jpg)
+![VESC connected to a PSU](../assets/VESC.jpg)
 
 Otherwise, the software for the firmware is complete, but untested, for the ESP32s.
 
@@ -16,6 +16,8 @@ Otherwise, the software for the firmware is complete, but untested, for the ESP3
 | Serialib    | Allows C++ to read serial input from ESP32 | https://github.com/imabot2/serialib | 
 | vJoy SDK    | Allows C++ USB HID interfacing for joystick inputs | https://sourceforge.net/projects/vjoystick/files/Beta%202.x/SDK/ |
 |  hidapi-win | Allows low-level USB HID interfacing | https://github.com/libusb/hidapi |
+| VNWheel | Open-source Force Feedback for Arduinos | https://github.com/hoantv/VNWheel |
+ | TinyUSB | HID interfacing with the STM32 | https://github.com/hathach/tinyusb |
 
 ## Building
 
@@ -29,11 +31,13 @@ After completing the build, I will add support for newer ESP32s and RP2040s for 
 
 I have written some low-level USB HID Descriptors for this task, included in the image below:
 
-![A sneak peek of what's to come!!](assets/hiddesciptor.png)
+![A sneak peek of what's to come!!](../assets/hiddescriptor.png)
 
 **Expect a full firmware/build guide once the build is started/completed!**
-
 
 ## Sources (Arduino IDE Sketches for ESP32 Firmware):
 
 I used this tutorial to read ABI encoder outputs: https://www.youtube.com/watch?v=Y6BjnfwfzKE
+
+## DIY Force-Feedback software
+While originally not my intention, I ended up adapting the VNWheel library to implement custom force-feedback firmware to the STM32. This will be explained more in depth in the demo video (once it is shipped)

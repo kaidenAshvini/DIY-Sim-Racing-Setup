@@ -1,13 +1,41 @@
-Name,Description,Link,Units,Unit Price,Qty,Line Price,Running Total
-Hub Adapter,6-Hole Universal Pattern (70mm),https://a.co/d/0caWlYnZ,Each,$27.99,1,$27.99,$27.99
-Hall Effect Sensor,"KY003, 3144E A3144, DC 3.3V-5V",https://a.co/d/04nWw3zB,Each,$0.86,10,$8.60,$36.59
-Brushless DC Motor,"220W, 3000rpm, 48V",https://a.co/d/08rhArJE,Each,$80.50,1,$80.50,$117.09
-Flange Couplings,12mm ID x 30m OD,https://a.co/d/0i7bd3jh,Each,$1.90,4,$7.60,$124.69
-Shaft Coupler,14mm to 12mm (IDs) x 30mm OD ,https://a.co/d/09o9XnUK,Each,$20,1,$20,$144.69
-Amazon (Prime) Shipping,$0,,,,,$0,$144.69
-Amazon (Prime) Local/State Tax,$14.12,,,,,$14.12,$158.81
-D-Shaft,"12mm Diamter, 400mm Length, 6mm Flat Width",https://www.mcmaster.com/products/shafts/rotary-shafts-2~/length~100-mm/length~400-mm/rotary-shafts-2~shaft-type~d-profile/?s=12mm+shaft,Each,$18.71,1,$18.71,$177.52
-Torsion Spring,"225 Deg, 0.48in Shaft Diameter",https://www.mcmaster.com/products/torsion-springs/shaft-diameter~0-48/deflection-angle~225/,Each,$2.38,6,$14.28,$191.80
-Pulley Belt,"HTD5, 25mm Width, 80 Teeth, 400mm Trade Size",https://www.mcmaster.com/products/timing-belts/high-torque-htd-timing-belts-2~~/width~25-mm/number-of-teeth~80/,Each,$44.36,1,$44.36,$236.16
-McMaster-Carr Shipping,,$14.50,,,,$14.50,$250.66
-McMaster-Carr Local/State Tax,,$0,,,,$0,$250.66
+PURCHASED ITEMS,,,,,,,,
+Name,Description,Link,Units,Unit Price,Qty,Line Price,Running Total,
+Hub Adapter,6-Hole Universal Pattern (70mm),https://a.co/d/0caWlYnZ,Each,$27.99,1,$27.99,$27.99,
+Hall Effect Sensor,"KY003, 3144E A3144, DC 3.3V-5V",https://a.co/d/04nWw3zB,Each,$0.86,10,$8.60,$36.59,
+Brushless DC Motor,"220W, 3000rpm, 48V",https://a.co/d/08rhArJE,Each,$80.50,1,$80.50,$117.09,
+Flange Couplings,12mm ID x 30m OD,https://a.co/d/0i7bd3jh,Each,$1.90,4,$7.60,$124.69,
+Shaft Coupler,14mm to 12mm (IDs) x 30mm OD ,https://a.co/d/09o9XnUK,Each,$20,1,$20,$144.69,
+Amazon (Prime) Shipping,$0,,,,,$0,$144.69,
+Amazon (Prime) Local/State Tax,$14.12,,,,,$14.12,$158.81,
+D-Shaft,"12mm Diameter, 400mm Length, 6mm Flat Width",https://www.mcmaster.com/products/shafts/rotary-shafts-2~/length~100-mm/length~400-mm/rotary-shafts-2~shaft-type~d-profile/?s=12mm+shaft,Each,$18.71,1,$18.71,$177.52,
+Torsion Spring,"225 Deg, 0.48in Shaft Diameter",https://www.mcmaster.com/products/torsion-springs/shaft-diameter~0-48/deflection-angle~225/,Each,$2.38,6,$14.28,$191.80,
+Pulley Belt,"HTD5, 25mm Width, 80 Teeth, 400mm Trade Size",https://www.mcmaster.com/products/timing-belts/high-torque-htd-timing-belts-2~~/width~25-mm/number-of-teeth~80/,Each,$44.36,1,$44.36,$236.16,
+McMaster-Carr Shipping,,$14.50,,,,$14.50,$250.66,
+McMaster-Carr Local/State Tax,,$0,,,,$0,$250.66,
+,,,,,,,,
+SELF-SOURCED ITEMS (Not compensated by Hack Club),,,,,,,,
+Name,Description,Link,Units,Unit Price,Qty,Line Price,Running Total,Source
+Steering Wheel,"13.8"" Diameter, 3-spoke, 6-Hole Universal Pattern (70mm)",https://a.co/d/0jdjjv3R,Each,$22.88,1,$22.88,$273.54,Personal Supply
+Rotary-Shaft,"12mm Diameter, 100mm Length",https://www.mcmaster.com/products/shafts/rotary-shafts-2~/length~100-mm/rotary-shafts-2~shaft-type~round/?s=12mm+shaft,Each,$11.62,2,$23.24,$296.78,Robotics Team
+Rotary Encoder,"600 P/R, AB 2-Phase Quadrature Output (open-collector), 5-24V",https://a.co/d/07jE8QEV,Each,$14.99,4,$59.96,$356.74,Robotics Team
+Flanged Bearing,"F6901ZZ, 12mm ID x 24mm OD",https://a.co/d/0j7CwzQN,Each,$1.25,10,$12.50,$369.24,Robotics Team
+Shaft Collar,12mm ID x 30mm OD,https://a.co/d/0fmp9A3E,Each,$2.42,1,$2.42,$371.66,Robotics Team
+Extrusion (T-Slotted Framing Rails),"20mm x 20mm, 6"" length",https://www.mcmaster.com/products/extrusions/t-slotted-framing-and-fittings~/t-slotted-framing-rails-4/rail-height~20-mm/finish~anodized/length~6/length~1-2-ft/length~12/length~1-ft/?s=20mm+extrusoins,Each,$3.75,7,$26.25,$397.91,Robotics Team
+Standoff,"M5, 10mm Hex Size, 52mm",https://www.mcmaster.com/products/standoffs/standoffs-2~/female-threaded-hex-standoffs~~/thread-size~m5/length~52-mm/performance~lightweight/,Each,$3.91,4,$15.64,$413.55,Robotics Team
+Power Supply Unit,"48V, 20.8A, 1000W",https://a.co/d/0fD26eDp,Each,$50.99,1,$50.99,$464.54,Personal Supply (Very overkill for this project)
+STM32,"Nucleo-64, F411RE",https://a.co/d/01KzO2nj,Each,$25.42,1,$25.42,$489.96,Personal Supply
+ESP32,NodeMCU (ESP-32S),https://a.co/d/0g8DS4Zf,Each,$5.60,1,$5.60,$495.56,Personal Supply
+Flipsky VESC,"75100, 75V, 100A",https://a.co/d/06qzeMMU,Each,$75.99,1,$75.99,$571.55,Personal Supply (Also overkill)
+,,,,,,,,
+SELF-SOURCED MISC. RESOURCES (Not compensated by Hack Club),,,,,,,,
+Name,Description,Link,Units,Unit Price,Qty,Line Price,Running Total,
+M5 Assorted Bolts/Nuts,M5x8/10/12/16/20/25/30/35,https://a.co/d/0ctkiRn3,Each (kit),$9.99,1,$9.99,$581.54,
+M4 Assorted Bolts/Nuts,M4x6/8/12/16/20/30,https://a.co/d/0cXDtAtJ,Each (kit),$9.99,1,$9.99,$591.53,
+Filament,"PAHT-CF, PLA",https://a.co/d/0477rVy3,Kg,$39.99,0.3,$12.00,$603.53,
+,,,,,,,,
+SELF-SOURCED TOOLS (Not compensated by Hack Club),,,,,,,,
+Drill Press,,,,,,,,
+M5 0.8 Spiral Flute Tap,,,,,,,,
+CNC,,,,,,,,
+3D Printer,,,,,,,,
+Filament Dryer,,,,,,,,

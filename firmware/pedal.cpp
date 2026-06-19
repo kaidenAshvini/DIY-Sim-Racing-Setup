@@ -1,4 +1,4 @@
-#include <iostream>
+    #include <iostream>
 #include <cmath>
 #include "serialib.h"
 #include "public.h"
@@ -84,6 +84,7 @@ int main() {
     double xAdd = 0;
     double prevX;
 
+    double scale = 1;
     while (true) {
 //        int n = serial.readBytes(buffer, sizeof(buffer) - 1, 100); // timeout = 100ms
 
@@ -98,7 +99,7 @@ int main() {
             xAdd =0;
         }
 
-        std::cout << xAdd << std::endl;
+//        std::cout << xAdd << std::endl;
 
 
         if (xPos <= 0) {
@@ -106,7 +107,7 @@ int main() {
                 xPos += xAdd;
             }
         }
-        else if (xPos >= 1) {
+        else if (xPos >= 1/scale) {
             if (xAdd < 0) {
                 xPos += xAdd;
             }
@@ -118,17 +119,23 @@ int main() {
         if (xPos < 0) {
             xPos = 0;
         }
-        if (xPos > 1) {
-            xPos = 1;
+        if (xPos > 1.0/scale) {
+            xPos = 1.0/scale;
         }
+
 
         prevX = newX;
 
         std::cout << xPos << std::endl;
 
+        double xSc = xPos * 10.0;
+        if (xSc<0.11) {xSc=0.0;}
+        if (xSc>1) {xSc=1;}
+
+        std::cout << xSc << std::endl;
 
 
-        X = (int) (xPos * MAXRANGE);
+        X = (int) (xSc * MAXRANGE);
 
         id = (BYTE)DevID;
         iReport.bDevice = id;
