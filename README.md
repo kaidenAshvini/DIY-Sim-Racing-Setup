@@ -20,7 +20,7 @@ While I do have many years of experience on an FTC robotics team (Roboavatars #7
 
 Remember, while I have flushed out a completed project that works for me, feel free to adapt to whatever materials you have on hand. This will keep costs very low, as it did in my case, and will make your personal project far more convenient to complete!
 
-1. ### [Wheelbase](CAD/Wheel Assembly.step)
+1. ### [Wheelbase](CAD/Wheel%20Assembly.step)
     - **Using 20x20 Extrusions**
         - I have access to plenty of these 20x20 McMaster-Carr extrusions through my robotics team. They are cheap, rigid, and very convenient.
     - **Front Mount**
@@ -64,19 +64,19 @@ When this project is shipped, an [Adaptation Guide](CAD/README.md) will be added
     2. Printing
         - You will want to print each of these parts to the most sturdy setting you can, with the strongest material you have available, especially if you aren't using the reinforcement plates.
     3. Assembly
-        - Mount the Rotary Encoder to the [Encoder Rear Mount](CAD/Wheel/Steering Column Rear Mount.step) (this may be a bit tricky, just keep trying)
-        - Mount the [Encoder Rear Mount](CAD/Wheel/Steering Column Rear Mount.step) to 4 tapped extrusions
-        - Slide the [Rear Motor Mount](CAD/Wheel/Rear Motor Mount.step) into the 4 tapped extrusions. Slide the BLDC motor in, as well
-        - Mount the [Front Motor Mount](CAD/Wheel/Steering Column Front Mount.step) to the other side of the 4 tapped extrusions. Screw in the 4 motor mounting screws.
-        - Attach Flange Bearings (Flange facing outward) to the [Front Motor Mount](CAD/Wheel/Steering Column Front Mount.step) and [Endstop](CAD/Wheel/Steering Column Rear Mount.step)
+        - Mount the Rotary Encoder to the [Encoder Rear Mount](CAD/Wheel/Steering%20Column%20Rear%20Mount.step) (this may be a bit tricky, just keep trying)
+        - Mount the [Encoder Rear Mount](CAD/Wheel/Steering%20Column%20Rear%20Mount.step) to 4 tapped extrusions
+        - Slide the [Rear Motor Mount](CAD/Wheel/Rear%20Motor%20Mount.step) into the 4 tapped extrusions. Slide the BLDC motor in, as well
+        - Mount the [Front Motor Mount](CAD/Wheel/Steering%20Column%20Front%20Mount.step) to the other side of the 4 tapped extrusions. Screw in the 4 motor mounting screws.
+        - Attach Flange Bearings (Flange facing outward) to the [Front Motor Mount](CAD/Wheel/Steering%20Column%20Front%20Mount.step) and [Endstop](CAD/Wheel/Steering%20Column%20Rear%20Mount.step)
         - Slide the 12mm dia. x 400mm length D-shaft into the bearings. Mark enough clearance for the Hub Adapter and Shaft Gear (including the flange coupling)
         - Cut the shaft to size. Drop the 14mm x 12mm Shaft Coupler into the top of the Front Motor Mount, and take the smaller peice of the D-shaft to attach to the end of the Shaft Coupler
-        - Assemble the gears and pulleys ([Hub Adapter](CAD/Wheel/Hub Adapter.step), [Motor Pulley](CAD/Wheel/Motor Pulley.step), [Shaft Gear](CAD/Wheel/Shaft Gear.step), [Encoder Gear](CAD/Pedal/Encoder Gears.step)) using M4 nuts/bolts and the Flange Coupler
+        - Assemble the gears and pulleys ([Hub Adapter](CAD/Wheel/Hub%20Adapter.step), [Motor Pulley](CAD/Wheel/Motor%20Pulley.step), [Shaft Gear](CAD/Wheel/Shaft%20Gear.step), [Encoder Gear](CAD/Pedal/Encoder%20Gears.step)) using M4 nuts/bolts and the Flange Coupler
         - Test fit and mark the position of the Flange Couplings on the shafts. Disassemble the Pulleys/Gears
         - Attach the Flange Couplings with the shaft mounted and tighten
         - Attach the Gears/Pulleys to their respective Flange Couplings
         - Attach the Belt. This may be easier if you detach the motor output shaft and steering column shaft and slide both in at the same time with the pulley in place
-        - Attach the [Encoder Gear](CAD/Pedal/Encoder Gears.step) to the encoder
+        - Attach the [Encoder Gear](CAD/Pedal/Encoder%20Gears.step) to the encoder
     4. Wiring
         - Use a spare power cord. Strip and attach ferrules to the end. Apply to Power Supply Unit
         - Motor wires to VESC (color corresponding wires)
@@ -91,8 +91,8 @@ When this project is shipped, an [Adaptation Guide](CAD/README.md) will be added
         - I CNCed my side walls with either aluminum or polycarbonate. You can even print them, although I cannot guarantee their longevity.
     2. Assembly
         - Shave any excess burr or debris off the 3D prints and CNC cuts
-        - Mount the Rotary Encoder to a [Pedal Wall](CAD/Pedal/Pedal Base.step)
-        - Mount 2 Hex Standoffs to a pair of [Pedal Walls](CAD/Pedal/Pedal Base.step), one at the hole next to the Rotary Encoder and one on the desired end position
+        - Mount the Rotary Encoder to a [Pedal Wall](CAD/Pedal/Pedal%20Base.step)
+        - Mount 2 Hex Standoffs to a pair of [Pedal Walls](CAD/Pedal/Pedal%20Base.step), one at the hole next to the Rotary Encoder and one on the desired end position
         - Mount the rest of the parts in the [Pedal](CAD/Pedal/Pedal%20(1).step)
     3. Wiring
         - Wire the encoder to 5V, GND, 2 GPIO pins on the ESP32 (internal pull-ups)
