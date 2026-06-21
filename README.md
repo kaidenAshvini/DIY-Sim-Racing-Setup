@@ -134,7 +134,7 @@ Pedal:
 ![Pedal](assets/IRLs/IMG_9515.jpg)
 
 Wiring:
-![Wiring](assets\IRLs\IMG_9517.jpg)
+![Wiring](assets/IRLs/IMG_9517.jpg)
 
 Wheelbase Internals:
 ![Shaft Coupler](assets/IRLs/IMG_9509.jpg)
