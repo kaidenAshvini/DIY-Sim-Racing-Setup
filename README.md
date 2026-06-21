@@ -6,11 +6,14 @@ The [Wheelbase](CAD/Wheel/Wheel%20Assembly.step) features a 220W 48V Brushless D
 
 The [Pedals](CAD/Wheel/Pedal%20Assembly.step) feature torsion springs, adjustable end-stops, and rotary encoders.
 
-# Zine
+## Zine
 
 _Side note:_ I will update this Zine with an IRL picture as soon as I build it
 
 ![The car is from real pictures of my project car!](assets/Zinepng.png)
+
+## Demo
+https://www.youtube.com/watch?v=LTqkKbJHrKM
 
 ## Design Philosophy:
 While I do have many years of experience on an FTC robotics team (Roboavatars #7303), I am fully a software member. This project was my first attempt at CADing and building a physical project from scratch! Keep this in mind as you read through these designs, and please let me know at kaidenashvini@gmail.com of any mistakes I may have made!
