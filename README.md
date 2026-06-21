@@ -119,6 +119,24 @@ Learn more in [Adaptation Guide](CAD/README.md).
 
 The BOM can be found [here](BOM/BOM.csv).
 
+### IRL Pictures!!
+
+I know its messy...
+
+With/Without Wheel:
+![Without](assets/IRLs/IMG_9518.jpg)
+![With](assets/IRLs/IMG_9519.jpg)
+
+Pedal:
+![Pedal](assets/IRLs/IMG_9515.jpg)
+
+Wiring:
+![Wiring](assets\IRLs\IMG_9517.jpg)
+
+Wheelbase Internals:
+![Shaft Coupler](assets/IRLs/IMG_9509.jpg)
+![Pulley](assets/IRLs/IMG_9510.jpg)
+
 ### Contact
 
 Discord: sheikaheye123

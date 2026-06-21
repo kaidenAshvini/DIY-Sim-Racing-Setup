@@ -20,7 +20,7 @@ void WheelConfig::SetDefault() {
   configResetEncoderPosition = false;
   controlMode = PULSE_DIR;
   //  controlMode = PWM_POS_NEG;
-  constantGainConfig = 100;
+  constantGainConfig = 200;
   rampGainConfig = 100;;
   squareGainConfig = 100;;
   sinGainConfig = 100;

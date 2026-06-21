@@ -12,7 +12,8 @@
 //for serial ports above "COM9", we must use this extended syntax of "\\.\COMx".
 //also works for COM0 to COM9.
 //https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-createfilea?redirectedfrom=MSDN#communications-resources
-#define SERIAL_PORT "\\\\.\\COM10"
+#define SERIAL_PORT_THROTTLE "\\\\.\\COM17"
+#define SERIAL_PORT_BRAKE "\\\\.\\COM10"
 #endif
 //https://github.com/shauleiz/vJoy/blob/master/SDK/c%23/FeederDemoCS/Program.cs
 #define useSerial false
@@ -33,16 +34,26 @@ public:
 
     double curPos = 0;
 
-    serialDev(int _baud) {
+    serialDev(int _baud, bool isThrottle) {
         this->baud = _baud;
-        errorOpening = this->serial.openDevice(SERIAL_PORT, this->baud);
+        if (isThrottle) {
+            errorOpening = this->serial.openDevice(SERIAL_PORT_THROTTLE, this->baud);
+        }
+        else {
+            errorOpening = this->serial.openDevice(SERIAL_PORT_BRAKE, this->baud);
+        }
         if (errorOpening != 1) return;
     }
     double read() {
         n = serial.readBytes(this->buf, sizeof(this->buf) - 1, 100); // timeout = 100ms
         this->buf[n] = '\0';
         if (n > 3) {
-            curPos = std::stod(this->buf);
+            try {
+                curPos = std::stod(this->buf);
+            }
+            catch(std::invalid_argument& e) {
+                curPos = 0;
+            }
 //            std::cout << curPos;
         }
         return curPos;
@@ -62,7 +73,8 @@ int main() {
 
 //    char buffer[256];
 
-    serialDev wheel = serialDev(9600);
+    serialDev wheel = serialDev(9600,false);
+    serialDev wheel2 = serialDev(9600,true);
 //    serialDev throttle = serialDev(11250);
 
     UINT DevID = DEV_ID; //literally fucking useless
@@ -83,7 +95,7 @@ int main() {
     double xPos = 0;
     double xAdd = 0;
     double prevX;
-
+    int cnt =0;
     double scale = 1;
     while (true) {
 //        int n = serial.readBytes(buffer, sizeof(buffer) - 1, 100); // timeout = 100ms
@@ -92,50 +104,22 @@ int main() {
 ////            buffer[n] = '\0';
 //            if (n > 3) {
 //                xPos = std::fmod((std::stod(buffer) / 1200), 1); // one rev = 0->1
-        double newX = wheel.read()/1200;
-        xAdd = newX - prevX;
+        double newX = wheel.read()/-150.0;
+        if (newX<0.0) { newX = 0.0; }
+        if (newX>1.0) { newX = 1.0; }
+        X = (int) (newX * MAXRANGE);
 
-        if (abs(xAdd) > 10) {
-            xAdd =0;
+        double newY = wheel2.read()/-190.0;
+        if (newY<0.0) { newX = 0.0; }
+        if (newY>1.0) { newX = 1.0; }
+        Y = (int) (newY * MAXRANGE);
+
+        if (cnt > 5) {
+            std::cout << newX << std::endl;
+            std::cout << newY << std::endl;
+            cnt =0;
         }
-
-//        std::cout << xAdd << std::endl;
-
-
-        if (xPos <= 0) {
-            if (xAdd > 0) {
-                xPos += xAdd;
-            }
-        }
-        else if (xPos >= 1/scale) {
-            if (xAdd < 0) {
-                xPos += xAdd;
-            }
-        }
-        else {
-            xPos += xAdd;
-        }
-
-        if (xPos < 0) {
-            xPos = 0;
-        }
-        if (xPos > 1.0/scale) {
-            xPos = 1.0/scale;
-        }
-
-
-        prevX = newX;
-
-        std::cout << xPos << std::endl;
-
-        double xSc = xPos * 10.0;
-        if (xSc<0.11) {xSc=0.0;}
-        if (xSc>1) {xSc=1;}
-
-        std::cout << xSc << std::endl;
-
-
-        X = (int) (xSc * MAXRANGE);
+        cnt++;
 
         id = (BYTE)DevID;
         iReport.bDevice = id;

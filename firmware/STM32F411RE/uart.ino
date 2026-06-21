@@ -81,7 +81,7 @@ void loop() {
   totalForce = ffbEngine.ForceCalculator(enc);    
   totalForce = constrain(totalForce, -255, 255);
 
-  if (USEDEBUG && millis() - lastDebugMs >= 250) {
+  if (USEDEBUG && millis() - lastDebugMs >= 1000) {
     DebugSerial.print("Pos=");
     DebugSerial.print(enc.currentPosition);
     DebugSerial.print(" Force=");
