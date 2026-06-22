@@ -39,7 +39,7 @@ Remember, while I have flushed out a completed project that works for me, feel f
 
 ![Wheel Base, 10 deg Tilt](assets/Wheel2.png)
 
-2. ### [Pedals](CAD/Pedal Assembly.step)
+2. ### [Pedals](CAD/Pedal%20Assembly.step)
     - **Using Torsion Spring**s
         - I have torsion springs beneath the pedal shafts, which aim offer a realistic feel similar to real pedals.
     - **Pedal Design/Sizing**
